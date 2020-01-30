@@ -1,6 +1,6 @@
 import React from "react";
 
-function Form() {
+function UserForm() {
 
     return(
         <div>
@@ -9,4 +9,4 @@ function Form() {
     )
 }
 
-export default Form;
+export default UserForm;

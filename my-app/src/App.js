@@ -1,12 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
+import { withFormik, Form, Field } from "formik";
+import * as Yup from "yup";
+import axios from "axios";
 import './App.css';
-import Form from "./Components/Form";
+import UserForm from "./Components/Form";
 
-function App() {
+const App = ({ }) => {
   return (
     <div className="App">
-     <Form />
+     
+        <label htmlFor="name">Name:</label>
+     <UserForm />
+    
     </div>
   );
 }
